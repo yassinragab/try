@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BookCreateWindow</class>
+ <widget class="QDialog" name="BookCreateWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>657</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_error">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>311</y>
+     <width>488</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Error message here</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_category">
+   <property name="geometry">
+    <rect>
+     <x>208</x>
+     <y>209</y>
+     <width>360</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_author">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>176</y>
+     <width>45</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Author</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_copies">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>242</y>
+     <width>121</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Number of Copies</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_id">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>110</y>
+     <width>15</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ID</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_id">
+   <property name="geometry">
+    <rect>
+     <x>208</x>
+     <y>110</y>
+     <width>360</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_title">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>143</y>
+     <width>29</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Title</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_title">
+   <property name="geometry">
+    <rect>
+     <x>208</x>
+     <y>143</y>
+     <width>360</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_category">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>209</y>
+     <width>60</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Category</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_author">
+   <property name="geometry">
+    <rect>
+     <x>208</x>
+     <y>176</y>
+     <width>360</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_addBook">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>275</y>
+     <width>488</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add Book</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox_copies">
+   <property name="geometry">
+    <rect>
+     <x>208</x>
+     <y>242</y>
+     <width>360</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
